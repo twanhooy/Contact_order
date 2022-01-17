@@ -149,7 +149,7 @@ variable 	 y10_4 equal c_xAtom[900][2]
 variable 	 z10_4 equal c_xAtom[900][3]
 
 
-dump		total all custom ${Ndump} positions_series_c_10.lammpstrj id type x y z 
+dump		total all custom ${Ndump} positions_parallel_c_10.lammpstrj id type x y z 
 dump_modify	total sort id
 
 
